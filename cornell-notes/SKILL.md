@@ -10,6 +10,10 @@ Turns a single article URL into Cornell-style notes, run end to end through four
 stages, no stopping between them unless a stage surfaces something that needs a
 decision.
 
+Stages 1-3 are working steps, not output — do not print their results to chat.
+Run them silently and carry each stage's output into the next. Nothing goes to
+the user until the final Output section.
+
 ## Stage 1 — Notes
 
 Fetch the source content from the given URL. Produce only the cue column and the
@@ -42,5 +46,8 @@ paper: no `[video]` tags, no reviewer notes, maximally terse.
 
 ## Output
 
-End with two artifacts: the Notion page (link it) and the paper-ready text
-(shown in chat).
+The only output shown to the user. Two artifacts:
+
+- The Notion page — link it.
+- The paper-ready text from Stage 4 — shown in chat, no `[video]` tags, no
+  reviewer notes, no stage 1-3 content alongside it.
