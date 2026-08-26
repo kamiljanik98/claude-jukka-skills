@@ -43,8 +43,12 @@ Condense the corrected document into a version ready to hand-copy onto paper: no
 
 ## Stage 5 — Save to Notion
 
-Save one consolidated page — not two separate documents. Article title as the
-page title, then:
+Save one consolidated page — not two separate documents — as a row in the
+"Cornell Notes" database (data source `898d28a7-add3-48a2-9b30-b85bf2c53b53`),
+not as a standalone private page. Set its properties: `Name` = article title,
+`Source URL` = the input URL, `Date` = today, `Language` = `EN` (or the
+translated language if Stage 6 ran instead of the English version). Page
+content:
 
 - The reviewed Cornell document: cue column, notes, summary.
 - A short "Reviewer notes" section: what was checked and what changed.
@@ -62,4 +66,5 @@ which language (default to Polish if the user doesn't say, per this machine's
 usual translation target) and replace the page's content in place with the
 translated version — same page, same structure (cue column, notes, summary,
 reviewer notes, paper-ready), fully translated. Do not append the translation
-below the English text; the translation is a swap, not an addition.
+below the English text; the translation is a swap, not an addition. Update the
+row's `Language` property to match.
