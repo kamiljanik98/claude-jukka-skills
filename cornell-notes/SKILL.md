@@ -59,5 +59,7 @@ above it, not a repeat of it.
 Show only the Notion page link in chat. Then ask whether the user wants a
 translation of the page — optional, never run without being asked. If yes, ask
 which language (default to Polish if the user doesn't say, per this machine's
-usual translation target) and add the translation to the same Notion page
-rather than creating a new one.
+usual translation target) and replace the page's content in place with the
+translated version — same page, same structure (cue column, notes, summary,
+reviewer notes, paper-ready), fully translated. Do not append the translation
+below the English text; the translation is a swap, not an addition.
